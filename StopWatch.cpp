@@ -1,6 +1,6 @@
 #include <iostream>
 #include <unistd.h> 
-using namespace std;
+using namespacestd;
 void displayTime(int hours, int minutes, int seconds) {
    cout << hours << ":"
         << minutes << ":"
