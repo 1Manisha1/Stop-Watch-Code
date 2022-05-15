@@ -13,7 +13,12 @@ int main() {
   int sec = 0;
   while(true) {
     sleep(1);
- sec++;
+      millisec++;
+    if(millisec > 59) 
+    {
+        sec++;
+        millisec = 0;
+    }
  if(sec > 59) {
       min++;
       sec = 0;
